@@ -39,9 +39,9 @@ o con el siguiente comando de nodemon para autorefrescar el servidor al hacer ca
 
 ---
 
-![](project-views/login.jpg)
+![](vistas-proyecto/login.jpg)
 
-![](project-views/dashboard.jpg)
+![](vistas-proyecto/dashboard.jpg)
 
 <br>
 
