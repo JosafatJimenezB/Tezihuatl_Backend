@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Hoja de estilos de iconos -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- Hoja de estilos de la pagina -->
+    <link rel="stylesheet" href="/css/login.css">
+
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+
+    
+    <!-- Custom styles for this template -->
+    <!-- <link href="css/signin.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet"> -->
+
+    <title>Login - Tezihuatl Holistic Center</title>
+</head>
+<body>
+
+    <section class="login">
+        <div class="container">
+            <div class="welcome">
+                <div class="text">
+                    <h2>Bienvenido de nuevo</h2>
+                    <p>El único modo de hacer un gran trabajo es amar lo que haces.</p>
+                    <span>- Steve Jobs</span>
+                </div>
+            </div>
+            <div class="form">
+                <div class="form-container">
+                    <img src="/img/logo.png">
+                    <h2>Iniciar Sesión</h2>
+                    <form formLogin" action="/login" method="POST">
+                        <label for="user"><i class="uil uil-user"></i> User</label>
+                        <br>
+                        <input type="text" id="user" name="user" placeholder="User">
+                        <br>
+                        <label for="password"><i class="uil uil-lock"></i> Password</label>
+                        <br>
+                        <input type="password" id="pass" name="pass" placeholder="Password">
+                        <br>
+                   <!-- <a href="/register" type="button" class="w-100 btn btn-lg btn-bd-primary">Registrarse</a> -->
+                        <input class="btn-send" type="submit" value="Login">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <a href="https://tezihuatlcenter.github.io/"><i class="uil uil-left-arrow-to-left"></i> Regresar</a>
+    </section>
+
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <% if(alert) { %>
+    <script>
+      Swal.fire({
+        title: '<%= alertTitle %>',
+        text:'<%= alertMessage %>',
+        icon:'<%= alertIcon %>',
+        showConfirmButton: <%= showConfirmButton %>,
+        timer: <%= timer %>
+      }).then(()=>{
+        window.location = '/<%= ruta %>'
+      })
+    </script>
+  <% } %>
+
+
+
+</body>
+</html>
