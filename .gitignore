@@ -1,5 +1,6 @@
 node_modules
-*.sql
+
+login_node_jwt.sql
 
 .env
 
