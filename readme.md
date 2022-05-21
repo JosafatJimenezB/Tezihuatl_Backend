@@ -143,6 +143,23 @@ Se crea un archivo **.env** con las variables de entorno que se van a utilizar e
 
 ```
 
+### Controller para el inicio de session
+
+Para esta seccion se importa jsonwebtoken y bcryptjs para poder manejar la sesion y el login.
+
+Lo que hacemos con jswonwebtoken es dar un token para que se pueda acceder a la sesion el cual contiene una duracion y con bcryptjs se encriptan los datos que se han ingresado para poder iniciar sesion.
+
+### Vistas en el navegador
+
+Para ello se hace el uso de ejs el cual es un motor de plantillas que se renderiza desde el backend para ello en el archivo **_app.js_** se importa la libreria ejs y le decimos que va a ser predeterminado para el renderizado de las paginas.
+
+```js
+app.set("view engine", "ejs");
+
+//seteamos la carpeta public para archivos estáticos
+app.use(express.static("public"));
+```
+
 ## Vistas del proyecto :camera:
 
 ---
