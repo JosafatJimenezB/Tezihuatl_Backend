@@ -4,7 +4,17 @@
 
 ---
 
-1.- Primero debes clonar este repositorio en tu entorno local pero antes recuerda tener instalado node para poder ejecutarlo y en caso contrario lo puedes descargar del siguiente [enlace](https://nodejs.org/es/).
+1.- Primero debes clonar este repositorio en tu entorno local pero antes recuerda tener instalado node para poder ejecutarlo y en caso de no tenerlo lo puedes descargar del siguiente [enlace](https://nodejs.org/es/).
+
+para verificar que lo tienes instalado ejecuta el siguiente comando en tu terminal:
+
+> Recuerda tener instalado git o de lo contrario te marcará error al hacer el clone.
+
+```bash
+    node -v
+```
+
+con el siguiente comando puedes clonar este respositorio en tu entorno local
 
 ```bash
     git clone https://github.com/JosafatJimenezB/Tezihuatl_Backend.git
@@ -67,6 +77,10 @@ o con el siguiente comando de nodemon para autorefrescar el servidor al hacer ca
 ```bash
     nodemon start
 ```
+
+5.- Una vez que el servidor esté corriendo debes ingresar al siguiente enlace para verificar que el servidor esta corriendo:
+
+**http://localhost:5000**
 
 ## Vistas del proyecto
 
