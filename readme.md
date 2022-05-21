@@ -6,21 +6,22 @@
 
 1.- Primero debes clonar este repositorio en tu entorno local pero antes recuerda tener instalado node para poder ejecutarlo y en caso de no tenerlo lo puedes descargar del siguiente [enlace](https://nodejs.org/es/).
 
-para verificar que lo tienes instalado ejecuta el siguiente comando en tu terminal:
-
-> Recuerda tener instalado git o de lo contrario te marcará error al hacer el clone.
+para verificar que lo tienes instalado ejecuta el siguiente comando en tu terminal.
 
 ```bash
     node -v
 ```
 
 con el siguiente comando puedes clonar este respositorio en tu entorno local
+(recuerda tener instalado git o de lo contrario te marcará error al hacer el clone).
 
 ```bash
     git clone https://github.com/JosafatJimenezB/Tezihuatl_Backend.git
 ```
 
-despues de clonar el repositorio debes dirigirte a la carpeta donde esta el proyecto y ejecutar el siguiente comando:
+o en el boton verde que aparece en la parte superior derecha de la pantalla se seleccion descargar como zip y se descomprime en el explorador de archivos.
+
+Despues de clonar el repositorio debes dirigirte a la carpeta donde esta el proyecto y ejecutar el siguiente comando:
 
 ```bash
     cd Tezihuatl_Backend
@@ -82,7 +83,31 @@ o con el siguiente comando de nodemon para autorefrescar el servidor al hacer ca
 
 **http://localhost:5000**
 
-## Vistas del proyecto
+## Funcionamiento del servidor :desktop_computer:
+
+---
+
+En el archivo principal **app.js** se importa el framework de express con el siguiente comando:
+
+```js
+const express = require("express");
+const app = express();
+```
+
+y despues se ejecuta el servidor con el siguiente comando:
+
+```js
+const server = app.listen(process.env.PORT || port, () => {
+  const port = server.address().port;
+  console.log(`Express is working on port ${port}`);
+});
+```
+
+con ello ya tendremos nuestro servidor corriendo en el puerto 5000.
+
+pero ademas de ello tambien tenemos que importar a la libreria de cookie-parser para poder usar las cookies en el servidor y poder tener control sobre las sesiones y tambien agregamos dotenv para poder manejar variables de entorno.
+
+## Vistas del proyecto :camera:
 
 ---
 
