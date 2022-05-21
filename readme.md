@@ -87,7 +87,9 @@ o con el siguiente comando de nodemon para autorefrescar el servidor al hacer ca
 
 ---
 
-En el archivo principal **app.js** se importa el framework de express con el siguiente comando:
+### Creación del servidor
+
+En el archivo principal **_app.js_** se importa el framework de express con el siguiente comando:
 
 ```js
 const express = require("express");
@@ -106,6 +108,40 @@ const server = app.listen(process.env.PORT || port, () => {
 con ello ya tendremos nuestro servidor corriendo en el puerto 5000.
 
 pero ademas de ello tambien tenemos que importar a la libreria de cookie-parser para poder usar las cookies en el servidor y poder tener control sobre las sesiones y tambien agregamos dotenv para poder manejar variables de entorno.
+
+### Conexion con la base de datos
+
+Una vez levantado el servidor se crea un controller para poder hacer una conexion con la base de datos, para ello importamos mysql dentro del archivo **_db.js_**.
+
+```js
+const mysql = require("mysql");
+
+const conexion = mysql.createConnection({
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASS,
+  database: process.env.DB_DATABASE,
+});
+```
+
+### Variables de entorno
+
+Se crea un archivo **.env** con las variables de entorno que se van a utilizar en el servidor.
+
+```
+    DB_HOST = localhost
+    DB_USER = root
+    DB_PASS =
+    DB_DATABASE = backend-db
+
+    JWT_SECRETO = secret_password
+
+    JWT_TIEMPO_EXPIRA = 7d
+
+    JWT_COOKIE_EXPIRES = 90
+
+
+```
 
 ## Vistas del proyecto :camera:
 
