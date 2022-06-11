@@ -15,6 +15,8 @@ para ingresar a la plataforma lo primero que necesita es ingresar a tezihuatl-ba
 Una vez logueado nos dirigimos al simbolo de [ + ] para crear un nuevo registro.
 Aqui tendremos que llenar el formulario con los datos solicitados y damos en guardar.
 
+![nuevo registro](https://raw.githubusercontent.com/JosafatJimenezB/assets-paginas/main/registro.gif)
+
 
 ## Editar registro
 
