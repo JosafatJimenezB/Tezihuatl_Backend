@@ -160,6 +160,13 @@ app.set("view engine", "ejs");
 app.use(express.static("public"));
 ```
 
+
+
+### Manual de instrucciones
+Para ello ingrese al siguiente link
+[Manual de usuario :book:](/views/manual.md)
+
+
 ## Vistas del proyecto :camera:
 
 ---
