@@ -7,6 +7,9 @@
 
 para ingresar a la plataforma lo primero que necesita es ingresar a tezihuatl-backend.herokuapp.com e iniciar sesion con las credenciales de administrador.
 
+![login video](https://raw.githubusercontent.com/JosafatJimenezB/assets-paginas/main/login.gif)
+
+
 ## Crear nuevo registro
 
 Una vez logueado nos dirigimos al simbolo de [ + ] para crear un nuevo registro.
