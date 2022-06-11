@@ -1,7 +1,11 @@
-<h1 style="text-align: center;">Manual de Usuario</h1>
-<p style="text-align: center;"><img width="300px" src="https://raw.githubusercontent.com/JosafatJimenezB/TezihuatlPage/main/images/logo.png" alt=""></p>
+# Manual de usuario
+
+![](https://raw.githubusercontent.com/JosafatJimenezB/TezihuatlPage/main/images/logo.png)
 
 
+## Ingresar a la plataforma
+
+para ingresar a la plataforma lo primero que necesita es ingresar a tezihuatl-backend.herokuapp.com e iniciar sesion con las credenciales de administrador.
 
 
 
