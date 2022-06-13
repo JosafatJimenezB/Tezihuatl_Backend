@@ -22,6 +22,7 @@ Aqui tendremos que llenar el formulario con los datos solicitados y damos en gua
 
 Para editar un registro lo unico que necesitamos es buscar al usuario en la tabla y luego hacer click en el simbolo del lapiz para editar.
 
+![editar registro](https://raw.githubusercontent.com/JosafatJimenezB/assets-paginas/main/editar.gif)
 
 ## Eliminar registro
 
