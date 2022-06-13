@@ -28,6 +28,9 @@ Para editar un registro lo unico que necesitamos es buscar al usuario en la tabl
 
 Para eliminar un usuario lo unico que se necesita es buscar al usuario en la tabla y luego hacer click en el simbolo de la basura para eliminar.
 
+![elimnar registro](https://raw.githubusercontent.com/JosafatJimenezB/assets-paginas/main/eliminar.gif)
+
+
 ## Buscar registro
 Para buscar un usuario solo basta ingresar el nombre dentro del campo de busqueda de la tabla y nos mostrara los registros que contengan el nombre que se desea.
 
