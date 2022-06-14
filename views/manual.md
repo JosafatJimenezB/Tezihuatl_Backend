@@ -40,4 +40,9 @@ Para buscar un usuario solo basta ingresar el nombre dentro del campo de busqued
 
 Para ello solo basta con dar click en el boton rojo de cerrar para finalizar la sesión.
 
-> Nota: Si no cierra sesión esta se mantendra abierta y se podra seguir accediendo.
+> Nota: Si no cierra sesión esta se mantendra abierta y se podra seguir accediendo a todos los registros ya que el token caduca en 7 dias.
+
+
+
+
+###### Made with :heart: by Josafat Jimenez :mexico:
