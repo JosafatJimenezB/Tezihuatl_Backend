@@ -1,5 +1,6 @@
 # Backend de Tezihuatl Holistic Center :hospital:
-
+### CRUD gestion de pacientes 
+<br></br>
 ## Iniciar proyecto :rocket:
 
 ---
@@ -162,15 +163,14 @@ app.use(express.static("public"));
 
 
 
-### Manual de instrucciones
-Para ello ingrese al siguiente link
+## Manual de instrucciones
+---
+Para saber mas sobre el uso de la plataforma se puede consultar el manual de uso para realizar operaciones con el sistema. Para ello ingrese al siguiente link
 [Manual de usuario :book:](/views/manual.md)
 
 
 ## Vistas del proyecto :camera:
-
 ---
-
 ![](vistas-proyecto/login.jpg)
 
 ![](vistas-proyecto/dashboard.jpg)
