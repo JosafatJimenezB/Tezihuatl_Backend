@@ -34,6 +34,7 @@ Para eliminar un usuario lo unico que se necesita es buscar al usuario en la tab
 ## Buscar registro
 Para buscar un usuario solo basta ingresar el nombre dentro del campo de busqueda de la tabla y nos mostrara los registros que contengan el nombre que se desea.
 
+![buscar registro](https://raw.githubusercontent.com/JosafatJimenezB/assets-paginas/main/buscar.gif)
 
 ## Cerrar sesión
 
